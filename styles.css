@@ -1,0 +1,230 @@
+body{
+    font-family: "Helvetica", serif;
+    line-height: 1.5;
+    background-color: #E7E7DB;
+}
+
+
+#container{
+    height: 100
+}
+
+#header{
+    padding: 15px 50px 15px 50px;
+    background-color: #E7E7DB;
+    height: 100px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #DF0000;
+    float: left;
+    margin-right: 20px;
+}
+
+#login-form{
+    float: right;
+    margin-right: 20px
+}
+
+#login-form input {
+    padding: 5px 0 5px 0;
+    border-radius: 5px;
+    border: 2px solid #E7E7DB;
+}
+
+#login-form .submit {
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+}
+
+#login-form .submit:hover{
+    font-size: 18px;
+    color: #E7E7DB;
+    background: #DF0000; 
+}
+
+
+#menu ul{
+    list-style: none;
+   
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 5px 0 5px;
+    margin-left: 200px;
+}
+
+#menu ul li a{
+    color: #5A5A5A;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 23;
+    font-weight: bold;
+    color:#DF0000;
+    border-color: #DF0000;
+}
+
+.clear{
+    clear: both;
+}
+
+#about{
+    background: url(images/InlineR_Ampersand.jpg) no-repeat; /* Image and work courtesy of https://media.dnd.wizards.com/styles/inline_blocks/public/images/inline-block/InlineR_Ampersand.jpg */
+    height: 550px;
+    padding: 100px 0 0 200px;
+    width: 100%;
+}
+
+#about h3 {
+    color: #E7E7DB;
+    font-size: 25px;
+}
+
+#about p{
+    color: #E7E7DB;
+    Font-size: 18px;
+}
+
+#about .member-button{
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    border-radius: 20px;
+    background: black;
+    color: #E7E7DB;
+    margin-top: 20px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+}
+
+#about .member-button:hover{
+    font-size: 20px;
+    color:#DF0000;
+    font-weight: bold;
+}
+
+#top-left-sidebar{
+    float: left;
+    margin-left: 100px;
+    padding: 10px 435px 10px 435px
+}
+
+#top-left-sidebar ul{
+    list-style-image: url(images/swordbullet.png); /* Image and work courtesy of https://www.LogoMakr.com */
+}
+
+#top-right-sidebar ul{
+    list-style-image: url(images/shieldbullet.png) /* Image and work courtesy of https://www.LogoMakr.com */
+}
+
+#top-right-sidebar{
+    float: right;
+    margin-right: 100px;
+    padding: 10px 435px 10px 435px
+}
+
+#bottom-left-sidebar{
+    float: left;
+    padding: 10px 115px 10px 200px;
+    margin-left: 100px;
+}
+
+#bottom-left-sidebar{
+    list-style-image: url(images/wandbullet.png); /* Image and work courtesy of https://www.LogoMakr.com */
+}
+
+#bottom-right-sidebar{
+    float: right;
+    margin-right: 100px;
+    padding: 96px 103px 10px 0px;
+}
+
+#bottom-right-sidebar .sign-up-button{
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    border-radius: 20px;
+    background: black;
+    color: #E7E7DB;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+
+}
+
+#bottom-right-sidebar .sign-up-button:hover{
+    font-size: 20px;
+    color:#DF0000;
+    font-weight: bold;
+}
+
+.list-title{
+    font-size: 25px;
+}
+
+.side-list a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.sidebar{
+    opacity: 0.5;
+    background: #E7E7DB;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #DF0000;
+    transition: border-bottom opacity 0.3s ease;
+    -webkit-transition:  border-bottom opacity 0.3s ease;
+    -o-transition:  border-bottom opacity 0.3s ease;
+    -ms-transition:  border-bottom opacity 0.3s ease;
+    -moz-transition:  border-bottom opacity 0.3s ease;
+}
+
+.sidebar ul li a:hover{
+    color: #DF0000;
+    border-bottom: 1px solid #DF0000;
+}
+
+.sidebar:hover{
+    opacity: 1;
+}
+
+
+#footer p{
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+#footer #contact-list{
+    float: right;
+    margin-right: 100px;
+    list-style: none;
+    opacity: 0.7;
+}
+
+#contact-list a{
+    color: black;
+    text-decoration: none;
+}
